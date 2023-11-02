@@ -4,7 +4,6 @@ FROM $BASE_IMAGE
 ARG TARGETARCH
 ARG TF_VERSION
 
-# Switch to root to have permissions for operations
 USER root
 
 # terraform
